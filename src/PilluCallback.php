@@ -22,11 +22,11 @@ class PilluCallback
 
     /**
      * 解析皮路回傳的 payload
-     * @param mixed $payload 
+     * @param object $payload 
      * @return mixed 
      * @throws Exception 
      */
-    public function check($payload)
+    public function check(object $payload)
     {
         $rsamg = $payload->rsamsg;
         $decoded = PilluUtils::rsa_decrypt($rsamg, $this->public_key);
