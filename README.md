@@ -36,6 +36,8 @@ if ($response->body->result === 'success') {
 
 ### 訂單查詢 Double Check
 
+訂單查詢的時間點必須為交易時間的 120 秒以內，否則會被認定為無效參數
+
 ```
 $testing = true; // 設定環境
 $checker = new PilluCheckOrder('商戶編號', 'Public Key' , 'SHA2 Key', $testing);
