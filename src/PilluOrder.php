@@ -4,11 +4,11 @@ namespace Pillu;
 
 class PilluOrder
 {
-    public string $merchantid;
-    public string $tradeid;
-    public string $tradetime;
-    public string $amount;
-    public string $memo;
+    public string $merchantid = '';
+    public string $tradeid = '';
+    public string $tradetime = '';
+    public string $amount = '';
+    public string $memo = '';
     public string $installment = '0';
     public string $fee = '0';
 
