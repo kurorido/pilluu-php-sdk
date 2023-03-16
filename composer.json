@@ -1,0 +1,19 @@
+{
+    "name": "kurorido/pilluu-php-sdk",
+    "description": "紅陽皮路系統 PHP SDK",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": [
+        "pilluu",
+        "bnpl"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pillu\\": "src/"
+        }
+    }
+}
