@@ -1,5 +1,11 @@
 ## 紅陽 BNPL 皮路 PHP SDK
 
+### Install
+
+```
+composer require kurorido/pilluu-php-sdk
+```
+
 ### 傳送交易 Cashier
 
 ```
