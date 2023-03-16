@@ -2,7 +2,7 @@
     "name": "kurorido/pilluu-php-sdk",
     "description": "紅陽皮路系統 PHP SDK",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "pilluu",
         "bnpl"
